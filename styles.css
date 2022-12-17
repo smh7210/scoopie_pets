@@ -75,6 +75,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 25px;
 }
 
 .hero .call-out h1 {
@@ -82,9 +83,14 @@ img {
   font-weight: 700;
   text-align: center;
   font-size: 2rem;
-  padding: 90px;
+  padding-top: 90px;
   width: 700px;
   line-height: 0.9;
+}
+
+.hero .call-out .description {
+  color: #fff;
+  width: 500px;
 }
 
 .hero .call-out .btn-primary {
@@ -143,6 +149,11 @@ img {
   align-items: center;
   justify-content: center;
   padding: 10px;
+}
+
+.question .container .answer .icon {
+  width: 100px;
+  height: 100px;
 }
 
 .question .container .answer p,
