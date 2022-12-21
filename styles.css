@@ -13,6 +13,10 @@ body {
   color: #333;
 }
 
+h2 {
+  font-size: 36px;
+}
+
 a {
   text-decoration: none;
   font-family: "Poppins", sans-serif;
@@ -91,7 +95,7 @@ img {
   color: #0069b2;
   font-weight: 700;
   text-align: center;
-  font-size: 2rem;
+  font-size: 48px;
   line-height: 1.2;
 }
 
@@ -283,6 +287,7 @@ h2 {
 
 .footer h2 {
   margin-bottom: 15px;
+  font-size: 24px;
 }
 
 .footer h4 {
