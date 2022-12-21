@@ -206,6 +206,27 @@ h2 {
   font-size: 16px;
 }
 
+.products {
+  padding: 50px;
+}
+
+.products .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.products .container .product-images {
+  display: flex;
+  gap: 20px;
+}
+
+.products img {
+  height: 400px;
+  width: auto;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
