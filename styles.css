@@ -230,8 +230,10 @@ h2 {
 
 .products img {
   height: 400px;
-  width: auto;
+  width: 400px;
   border-radius: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 15px;
 }
 
 .products p {
@@ -316,7 +318,8 @@ h2 {
 }
 
 .copy {
-  font-size: 14px;
+  margin-left: 20px;
+  font-size: 12px;
 }
 
 .footer-links a {
