@@ -18,7 +18,6 @@
           <a href="#" class="logo">
             <img src="images/scoopiepet_logo.png" alt="logo" />
           </a>
-
           <ul class="nav-links">
             <li><a href="#" class="active">Home</a></li>
             <li><a href="#">Shop</a></li>
@@ -30,8 +29,8 @@
     </header>
 
     <section class="hero">
-      <div class="call-out">
-        <h1>
+      <div class="hero-content">
+        <h1 class="hero-heading">
           Scoopie Pet will<br />
           make your tail wag!
         </h1>
@@ -41,16 +40,19 @@
         </p>
         <a href="#" class="btn-primary">Shop Now!</a>
       </div>
-      <div class="call-out-image">
-        <img src="images/catdog_bathtub_scoopiepet.png" alt="pets in the tub" />
+      <div>
+        <img
+          class="hero-image"
+          src="images/catdog_bathtub_scoopiepet.png"
+          alt="pets in the tub"
+        />
       </div>
     </section>
-
-    <section class="question">
+    <section class="incentives">
       <div class="container">
         <h2>Why Scoopie Pets?</h2>
-        <div class="reasons">
-          <div class="answer">
+        <div class="items">
+          <div class="item">
             <div class="icon">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -74,7 +76,7 @@
               <li>Refillable applicator</li>
             </ul>
           </div>
-          <div class="answer">
+          <div class="item">
             <div class="icon">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -97,7 +99,7 @@
               pet is part of your family, and we care about them as much as you!
             </p>
           </div>
-          <div class="answer">
+          <div class="item">
             <div class="icon">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -143,9 +145,12 @@
                 ></path>
               </svg>
             </div>
-            <div class="review">
-              Scoopie Pet shampoo is the only product I will use to bathe my pup! I have a sensitivity to perfumes and this is the only scent I absolutely love!
-            </div>
+            <!-- change div to p tag -->
+            <p class="review">
+              Scoopie Pet shampoo is the only product I will use to bathe my
+              pup! I have a sensitivity to perfumes and this is the only scent I
+              absolutely love!
+            </p>
             <div class="name">Sam H.</div>
           </div>
           <div class="item">
@@ -162,9 +167,11 @@
                 ></path>
               </svg>
             </div>
-            <div class="review">
-              I love Scoopie Pet Shampoo and the easy to use applicator! My friends and family always ask if my dog just came back from the groomer. I tell everyone about this shampoo!
-            </div>
+            <p class="review">
+              I love Scoopie Pet Shampoo and the easy to use applicator! My
+              friends and family always ask if my dog just came back from the
+              groomer. I tell everyone about this shampoo!
+            </p>
             <div class="name">Megan S.</div>
           </div>
           <div class="item">
@@ -181,9 +188,11 @@
                 ></path>
               </svg>
             </div>
-            <div class="review">
-              I love the scent in this shampoo. I also love the natural ingrendients. I have peace of mind knowing that nothing in this product will harm my furbaby! 
-            </div>
+            <p class="review">
+              I love the scent in this shampoo. I also love the natural
+              ingrendients. I have peace of mind knowing that nothing in this
+              product will harm my furbaby!
+            </p>
             <div class="name">Kathy V.</div>
           </div>
           <div class="item">
@@ -200,68 +209,85 @@
                 ></path>
               </svg>
             </div>
-            <div class="review">
-              Scoopie Pet really did it right. I love the way it leaves my dog's fur feeling clean and smelling fresh. It's really easy to give my dog a quick bath with this applicator and shampoo.
-            </div>
+            <p class="review">
+              Scoopie Pet really did it right. I love the way it leaves my dog's
+              fur feeling clean and smelling fresh. It's really easy to give my
+              dog a quick bath with this applicator and shampoo.
+            </p>
             <div class="name">Liz K.</div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="products">
-    <div class="container">
-      <h2>Products</h2>
-      <div class="product-images">
-      <div class="kit">
-        <img src="./images/Untitled-5.png" alt="shampoo">
-        <h3>Shampoo & Applicator Kit</h3>
-        <p class="price">$12.99</p>
-        <a class="add-to-cart" href="#">Add to Cart</a>
+    <section class="product-wrapper">
+      <div class="container">
+        <h2>Products</h2>
+        <div class="products">
+          <div class="product">
+            <img src="./images/Untitled-5.png" alt="shampoo" />
+            <h3>Shampoo & Applicator Kit</h3>
+            <div class="price">$12.99</div>
+            <a class="add-to-cart" href="#">Add to Cart</a>
+          </div>
+          <div class="product">
+            <img src="./images/Untitled-6.png" alt="applicator" />
+            <h3>Applicator</h3>
+            <div class="price">$4.99</div>
+            <a class="add-to-cart" href="#">Add to Cart</a>
+          </div>
+          <div class="product">
+            <img src="./images/Untitled-5.png" alt="shampoo" />
+            <h3>Shampoo</h3>
+            <div class="price">$8.99</div>
+            <a class="add-to-cart" href="#">Add to Cart</a>
+          </div>
+        </div>
       </div>
-      <div class="applicator">
-        <img src="./images/Untitled-6.png" alt="applicator">
-        <h3>Applicator</h3>
-        <p class="price">$4.99</p>
-        <a class="add-to-cart" href="#">Add to Cart</a>
-      </div>
-      <div class="shampoo">
-        <img src="./images/Untitled-5.png" alt="shampoo">
-        <h3>Shampoo</h3>
-        <p class="price">$8.99</p>
-        <a class="add-to-cart" href="#">Add to Cart</a>
-      </div>
-      </div>
-    </div>
     </section>
     <footer class="footer">
       <div class="container">
-        <div class="top-footer">
-          <div class="footer-logo">
-            <img src="./images/scoopiepet_logo.png" alt="logo">
-                    <div class="copy">&copy;2022 All Rights Reserved</div>
-          </div>
-          <div class="contact">
-            <h2>Contact Us</h2>
-            <h4>Email</h4>
-            <p>info@scoopiepetproducts.com</p>
-            <h4>Phone</h4>
-            <p>718-687-8844</p>
-            <h4>Address</h4>
-            <p>150 D Greaves Lane<br/>
-              Staten Island, NY 10308</p>
-          </div>
+        <div class="footer-logo">
+          <img src="./images/scoopiepet_logo.png" alt="logo" />
+          <div class="copy">&copy;2022 All Rights Reserved</div>
+        </div>
+        <div class="contact">
+          <h2>Contact Us</h2>
+          <!-- change to h3 -->
+          <h4>Email</h4>
+          <!-- make email a link to open an email client -->
+          <p>info@scoopiepetproducts.com</p>
+          <h4>Phone</h4>
+          <p>718-687-8844</p>
+          <h4>Address</h4>
+          <!-- use the address tag -->
+          <p>
+            150 D Greaves Lane<br />
+            Staten Island, NY 10308
+          </p>
+        </div>
 
-          <div class="social">
-            <h2>Follow Us</h2>
-            <div class="social-links">
-            <a href="https://www.facebook.com/scoopiepets"><img src="./images/svg/bxl-facebook-circle.svg" alt="facebook logo"></a>
-            <a href="https://www.instagram.com/scoopiepets"><img src="./images/svg/bxl-instagram-alt.svg" alt="instagam logo"></a>
-            <a href="https://www.pinterest.com/scoopiepets"><img src="./images/svg/bxl-pinterest.svg" alt="pinterest logo"></a>
-            </div>
+        <div class="social">
+          <h2>Follow Us</h2>
+          <!-- change to unordered list of links -->
+          <div class="social-links">
+            <a href="https://www.facebook.com/scoopiepets"
+              ><img
+                src="./images/svg/bxl-facebook-circle.svg"
+                alt="facebook logo"
+            /></a>
+            <a href="https://www.instagram.com/scoopiepets"
+              ><img
+                src="./images/svg/bxl-instagram-alt.svg"
+                alt="instagam logo"
+            /></a>
+            <a href="https://www.pinterest.com/scoopiepets"
+              ><img src="./images/svg/bxl-pinterest.svg" alt="pinterest logo"
+            /></a>
           </div>
-          
-          <div class="footer-nav">
+        </div>
+
+        <div class="footer-nav">
           <h2>Menu</h2>
           <ul class="footer-links">
             <li><a href="#">Home</a></li>
@@ -269,8 +295,8 @@
             <li><a href="#">About</a></li>
             <li><a href="#">My Account</a></li>
           </ul>
-          </div>
         </div>
-      </footer>
+      </div>
+    </footer>
   </body>
 </html>
