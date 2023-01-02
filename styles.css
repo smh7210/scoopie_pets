@@ -280,7 +280,7 @@ ul {
   font-size: 1.5rem;
 }
 
-.footer h4 {
+.footer h3 {
   color: #fff;
 }
 
@@ -301,6 +301,14 @@ ul {
   color: #0069b2;
 }
 
+.contact a {
+  color: #333;
+}
+
+.contact a:hover {
+  color: #333;
+}
+
 .bottom-footer {
   align-self: center;
 }
@@ -317,4 +325,8 @@ ul {
 .social-links img {
   width: 2.125rem;
   height: 2.125rem;
+}
+
+.social-links {
+  display: flex;
 }
