@@ -34,6 +34,10 @@ ul {
   list-style: none;
 }
 
+.mobile-trigger {
+  display: none;
+}
+
 .logo img {
   margin-top: 1.25rem;
   height: 9.375rem;
@@ -330,4 +334,19 @@ ul {
 
 .social-links {
   display: flex;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 728px) {
+  .mobile-trigger {
+    display: block;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    margin-inline: 20px;
+  }
+
+  .navbar .container .nav-links {
+    display: none;
+  }
 }
