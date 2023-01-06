@@ -363,8 +363,17 @@ ul {
     font-size: 2rem;
   }
 
+  .incentives {
+    padding: 1rem;
+  }
+
   .incentives .container .items {
     flex-direction: column;
+    gap: 1rem;
+  }
+
+  .testimony {
+    padding: 1rem;
   }
 
   .testimony .container .t-items {
@@ -373,5 +382,25 @@ ul {
 
   .testimony .container .t-items .item {
     width: auto;
+  }
+
+  .product-wrapper .container .products {
+    flex-direction: column;
+    margin-left: 1rem;
+  }
+
+  .product-wrapper img {
+    box-shadow: none;
+    margin-left: -1rem;
+  }
+
+  .footer .container {
+    flex-direction: column;
+    padding-left: 1rem;
+    max-width: 100%;
+  }
+
+  .footer-logo {
+    order: 5;
   }
 }
